@@ -1,0 +1,3 @@
+<view bindtap='cropImage'>
+  <image src="{{avatarPath}}" style='width:100px;height:100px'></image>
+</view>

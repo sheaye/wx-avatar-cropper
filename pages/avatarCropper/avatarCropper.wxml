@@ -1,0 +1,11 @@
+<canvas canvas-id='myCanvas'></canvas>
+<movable-area scale-area hidden="{{hidden}}">
+  <movable-view  x="{{x}}" y="{{y}}" direction="all" out-of-bounds bindchange="onChange" bindscale="onScale" scale scale-min="0.5" scale-max="4" scale-value="{{scale}}" style="left:{{image.initialX}}px;top:{{image.initialY}}px;width:{{image.initialWidth}}px;height:{{image.initialHeight}}px">
+    <image src='{{src.path}}' mode='scaleToFill'></image>
+  </movable-view>
+</movable-area>
+<view class='bottom'>
+  <view class='button' bindtap='cancel'>取消</view>
+  <view class='button' bindtap='reset'>撤销</view>
+  <view class='button' bindtap='complete'>完成</view>
+</view>
