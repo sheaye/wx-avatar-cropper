@@ -23,4 +23,4 @@
 2. 前面也提到了，点击“撤销”(微信里叫“还原”)，只能分两步撤销拖动和缩放，回到原来的位置。
 3. 受限于`movable-area`图片拖动能超出边界的范围不多，这应该可以通过放大`movable-area`解决，不过这样的话后面的一系列定位算法都要更改。网友有需要的话可以自己实现。
 
-### https://blog.csdn.net/KevinsCSDN/article/details/86476005
+### 博客：https://blog.csdn.net/KevinsCSDN/article/details/86476005
